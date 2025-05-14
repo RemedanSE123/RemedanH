@@ -11,7 +11,7 @@ import { Menu, Github } from "lucide-react"
 const routes = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/-certificates", label: "Certificates" },
+  { href: "/certificates", label: "Certificates" },
   { href: "/contact", label: "Contact" },
 ]
 
