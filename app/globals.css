@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 38 92% 50%; /* Amber 500 */
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 270 100% 60%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 38 92% 50%; /* Amber 500 */
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 38 92% 50%; /* Amber 500 */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-space;
+  }
+
+  .glow {
+    text-shadow: 0 0 10px rgba(255, 179, 0, 0.7), 0 0 20px rgba(255, 179, 0, 0.5), 0 0 30px rgba(255, 179, 0, 0.3);
+  }
+
+  .glow-accent {
+    text-shadow: 0 0 10px rgba(255, 179, 0, 0.7), 0 0 20px rgba(255, 179, 0, 0.5), 0 0 30px rgba(255, 179, 0, 0.3);
+  }
+
+  .glow-secondary {
+    text-shadow: 0 0 10px rgba(255, 179, 0, 0.7), 0 0 20px rgba(255, 179, 0, 0.5), 0 0 30px rgba(255, 179, 0, 0.3);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-500 via-amber-400 to-amber-300;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(255,179,0,0.5)] hover:-translate-y-1;
+  }
+}
