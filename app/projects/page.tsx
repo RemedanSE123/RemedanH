@@ -19,7 +19,7 @@ const projects = [
     title: "Predictive Sales Analysis",
     description:
       "Built a machine learning model to predict future sales based on historical data, improving forecast accuracy by 35%.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/Certificate/bs.png?height=600&width=800",
     tags: ["Python", "ML", "Pandas", "Scikit-learn"],
     categories: ["ML", "Python"],
     slug: "predictive-sales-analysis",

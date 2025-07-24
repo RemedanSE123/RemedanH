@@ -29,7 +29,7 @@
 //     id: 1,
 //     title: "Data Science Professional Certificate",
 //     issuer: "IBM",
-//     date: "2020",
+//     date: "2025",
    
 //     categories: ["Data Science", "Python"],
 //     link: "https://example.com/certificate1",
@@ -41,7 +41,7 @@
 //     id: 2,
 //     title: "Machine Learning Specialization",
 //     issuer: "Stanford University",
-//     date: "2021",
+//     date: "2025",
      
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate2",
@@ -52,8 +52,8 @@
 //     id: 3,
 //     title: "Deep Learning Specialization",
 //     issuer: "DeepLearning.AI",
-//     date: "2021",
-//     image: "/placeholder.svg?height=400&width=600",
+//     date: "2025",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate3",
 //     pdfUrl: "/Certificate/Deep Learning Specialization.pdf",
@@ -63,7 +63,7 @@
 //     title: "Excel Expert Certification",
 //     issuer: "Microsoft",
 //     date: "2019",
-//     image: "/placeholder.svg?height=400&width=600",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["Excel"],
 //     link: "https://example.com/certificate4",
 //     pdfUrl: "/Certificate/Advanced Excel.pdf",
@@ -73,7 +73,7 @@
 //     title: "SQL Advanced Certification",
 //     issuer: "Oracle",
 //     date: "2019",
-//     image: "/placeholder.svg?height=400&width=600",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["SQL"],
 //     link: "https://example.com/certificate5",
 //     pdfUrl: "/Certificate/SQL Advanced Certification.pdf",
@@ -82,8 +82,8 @@
 //     id: 6,
 //     title: "Power BI Data Analyst",
 //     issuer: "Microsoft",
-//     date: "2020",
-//     image: "/placeholder.svg?height=400&width=600",
+//     date: "2025",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["Power BI"],
 //     link: "https://example.com/certificate6",
 //     pdfUrl: "/Certificate/Power BI Data Analyst.pdf",
@@ -93,7 +93,7 @@
 //     title: "TensorFlow Developer Certificate",
 //     issuer: "Google",
 //     date: "2022",
-//     image: "/placeholder.svg?height=400&width=600",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate7",
 //     pdfUrl: "/Certificate/TensorFlow Developer Certificate.pdf",
@@ -103,7 +103,7 @@
 //     title: "Natural Language Processing Specialization",
 //     issuer: "DeepLearning.AI",
 //     date: "2022",
-//     image: "/placeholder.svg?height=400&width=600",
+//     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate8",
 //     pdfUrl: "/Certificate/Natural Language Processing Specialization.pdf",
@@ -336,7 +336,7 @@
 //                   onClick={() => openCertificateModal(certificate, "image")}
 //                 >
 //                   <Image
-//                     src={certificate.image || "/placeholder.svg"}
+//                     src={certificate.image || "/Certificate/"}
 //                     alt={certificate.title}
 //                     fill
 //                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -507,7 +507,7 @@
 //                   }}
 //                 >
 //                   <Image
-//                     src={selectedCertificate?.image || "/placeholder.svg"}
+//                     src={selectedCertificate?.image || "/Certificate/"}
 //                     alt={selectedCertificate?.title || "Certificate"}
 //                     fill
 //                     className="object-contain"
@@ -570,88 +570,140 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 const certificates = [
   {
     id: 1,
-    title: "Data Science Professional Certificate",
-    issuer: "IBM",
-    date: "2020",
-    categories: ["Data Science", "Python"],
+    title: "Data Science  Certificate",
+    issuer: "Udemy",
+    date: "2025",
+    categories: ["Data Science", "ML"],
     link: "https://example.com/certificate1",
     image: "/Certificate/db.png?height=600&width=600",
     pdfUrl: "/Certificate/ds.pdf?height=6s00&width=600",
   },
   {
     id: 2,
-    title: "Machine Learning Specialization",
-    issuer: "Stanford University",
-    date: "2021",
-    categories: ["ML", "AI"],
-    link: "https://example.com/certificate2",
+    title: "Business Analyst Certificate",
+    issuer: "Agile Enterprise ",
+    date: "2025",
+    categories: ["Data Analysis"],
+
     image: "/Certificate/bs.png?height=600&width=600",
-    pdfUrl: "/Certificate/Business Analyst Certification.pdf",
+
   },
   {
     id: 3,
-    title: "Deep Learning Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2021",
-    image: "/placeholder.svg?height=400&width=600",
-    categories: ["ML", "AI"],
-    link: "https://example.com/certificate3",
-    pdfUrl: "/Certificate/Deep Learning Specialization.pdf",
+    title: "Tableau: Data Visualization",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/1.png?height=400&width=600",
+    categories: ["Power BI/ Tableau"],
   },
   {
     id: 4,
-    title: "Excel Expert Certification",
-    issuer: "Microsoft",
-    date: "2019",
-    image: "/placeholder.svg?height=400&width=600",
-    categories: ["Excel"],
-    link: "https://example.com/certificate4",
-    pdfUrl: "/Certificate/Advanced Excel.pdf",
+    title: "Complete SQL Course 2025",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/2.png?height=400&width=600",
+    categories: ["SQL/Database"],
   },
   {
     id: 5,
-    title: "SQL Advanced Certification",
-    issuer: "Oracle",
-    date: "2019",
-    image: "/placeholder.svg?height=400&width=600",
-    categories: ["SQL"],
-    link: "https://example.com/certificate5",
-    pdfUrl: "/Certificate/SQL Advanced Certification.pdf",
+    title: "Time Series Analysis",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/3.png?height=400&width=600",
+    categories: ["Python"],
   },
   {
     id: 6,
-    title: "Power BI Data Analyst",
-    issuer: "Microsoft",
-    date: "2020",
-    image: "/placeholder.svg?height=400&width=600",
-    categories: ["Power BI"],
-    link: "https://example.com/certificate6",
-    pdfUrl: "/Certificate/Power BI Data Analyst.pdf",
+    title: "N8N: AI Agent Creation",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/4.png?height=400&width=600",
+    categories: ["AI"],
   },
   {
     id: 7,
-    title: "TensorFlow Developer Certificate",
-    issuer: "Google",
-    date: "2022",
-    image: "/placeholder.svg?height=400&width=600",
-    categories: ["ML", "AI"],
-    link: "https://example.com/certificate7",
-    pdfUrl: "/Certificate/TensorFlow Developer Certificate.pdf",
+    title: "Power BI: Data Visualization",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/5.png?height=400&width=600",
+    categories: ["Power BI/ Tableau"],
   },
   {
     id: 8,
+    title: "Microsoft Power BI & AI Dashboards",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/6.png?height=400&width=600",
+    categories: ["Power BI/ Tableau"],
+  },
+   {
+    id: 9,
+    title: "Git: Version Control",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/7.png?height=400&width=600",
+    categories: ["ALL"],
+  },
+   {
+    id: 10,
+    title: "Microsoft Excel",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/8.png?height=400&width=600",
+    categories: ["Excel"],
+  },
+   {
+    id: 11,
+    title: "Master Data Anaysis & Analytics",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/9.png?height=400&width=600",
+    categories: ["Data Analysis"],
+  },
+   {
+    id: 12,
     title: "Natural Language Processing Specialization",
     issuer: "DeepLearning.AI",
     date: "2022",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/Certificate/10.png?height=400&width=600",
     categories: ["ML", "AI"],
-    link: "https://example.com/certificate8",
-    pdfUrl: "/Certificate/Natural Language Processing Specialization.pdf",
+  },
+   {
+    id: 13,
+    title: "Natural Language Processing Specialization",
+    issuer: "DeepLearning.AI",
+    date: "2022",
+    image: "/Certificate/11.png?height=400&width=600",
+    categories: ["ML", "AI"],
+  },
+   {
+    id: 14,
+    title: "Natural Language Processing Specialization",
+    issuer: "DeepLearning.AI",
+    date: "2022",
+    image: "/Certificate/12.png?height=400&width=600",
+    categories: ["ML", "AI"],
+  },
+   {
+    id: 15,
+    title: "Natural Language Processing Specialization",
+    issuer: "DeepLearning.AI",
+    date: "2022",
+    image: "/Certificate/13.png?height=400&width=600",
+    categories: ["ML", "AI"],
+  },
+   {
+    id: 16,
+    title: "Natural Language Processing Specialization",
+    issuer: "DeepLearning.AI",
+    date: "2022",
+    image: "/Certificate/14.png?height=400&width=600",
+    categories: ["ML", "AI"],
   },
 ]
 
 // Filter categories
-const categories = ["All", "Excel", "SQL", "Power BI", "Data Science", "Python", "ML", "AI"]
+const categories = ["All", "Excel", "SQL/Database", "Python", "Data Analysis", "Data Science" ,"Power BI/ Tableau",  "ML", "AI"]
 
 export default function CertificatesPage() {
   const [activeCategory, setActiveCategory] = useState("All")
@@ -856,7 +908,7 @@ export default function CertificatesPage() {
             <div className="w-full bg-black rounded-xl overflow-hidden">
               <div className="relative w-full aspect-[3/2] max-h-[90vh]">
                 <Image
-                  src={selectedCertificate.image || "/placeholder.svg"}
+                  src={selectedCertificate.image || "/Certificate/"}
                   alt={selectedCertificate.title}
                   fill
                   sizes="100vw"
@@ -902,7 +954,7 @@ export default function CertificatesPage() {
               >
                 <div className="relative aspect-[3/2] overflow-hidden group">
                   <Image
-                    src={certificate.image || "/placeholder.svg"}
+                    src={certificate.image || "/Certificate/"}
                     alt={certificate.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

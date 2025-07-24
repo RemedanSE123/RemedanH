@@ -7,13 +7,14 @@ export function SiteFooter() {
       <div className="container py-8 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <Link href="/" className="text-2xl font-bold text-amber-500">
-              DS.Portfolio
-            </Link>
-            <p className="mt-2 text-muted-foreground max-w-md">
-              Transforming data into insights and building intelligent systems that solve real-world problems.
-            </p>
-          </div>
+              <Link href="/" className="text-2xl font-bold text-amber-500">
+                Remedan.H
+              </Link>
+              <p className="mt-2 text-muted-foreground max-w-md">
+                Empowering decisions through data. I specialize in turning raw information into actionable insights, combining analytics, machine learning, and domain knowledge to solve real-world challenges.
+              </p>
+            </div>
+
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -46,7 +47,7 @@ export function SiteFooter() {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex flex-col space-y-3">
               <Link
-                href="https://github.com"
+                href="https://github.com/RemedanSE123"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-muted-foreground hover:text-amber-500 transition-colors"
@@ -55,7 +56,7 @@ export function SiteFooter() {
                 <span>GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/remedan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-muted-foreground hover:text-amber-500 transition-colors"
@@ -64,27 +65,28 @@ export function SiteFooter() {
                 <span>LinkedIn</span>
               </Link>
               <Link
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-muted-foreground hover:text-amber-500 transition-colors"
-              >
-                <Twitter className="h-5 w-5 mr-2" />
-                <span>Twitter</span>
-              </Link>
-              <Link
-                href="mailto:contact@example.com"
+                href="mailto:remedanhyeredin@gmail.com"
                 className="flex items-center text-muted-foreground hover:text-amber-500 transition-colors"
               >
                 <Mail className="h-5 w-5 mr-2" />
                 <span>Email</span>
               </Link>
+              <Link
+                href="https://x.com/rsAnomage"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-muted-foreground hover:text-amber-500 transition-colors"
+              >
+                <Twitter className="h-5 w-5 mr-2" />
+                <span>X</span>
+              </Link>
+              
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Data Science Portfolio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Remedan Hyeredin Data Science Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>

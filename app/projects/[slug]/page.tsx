@@ -244,7 +244,7 @@ const projectsData = [
       "/placeholder.svg?height=600&width=800&text=Dashboard+Interface",
       "/placeholder.svg?height=600&width=800&text=Results+Comparison",
     ],
-    videoUrl: "https://www.example.com/video",
+    videoUrl: "/Project/bandicam 2025-07-20 13-05-20-651.mp4",
     videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
     tags: ["Python", "ML", "Pandas", "Scikit-learn", "Time Series Analysis", "Forecasting"],
     categories: ["ML", "Python"],
