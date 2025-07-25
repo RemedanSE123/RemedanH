@@ -125,7 +125,14 @@ export default function ContactPage() {
   return (
     <div className="container py-24 min-h-screen">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Me</h1>
+       <h1
+            className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-amber-300"
+            style={{ fontFamily: "Times New Roman, Times, serif" }}
+          >
+            Contact Me
+          </h1>
+
+
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Let's discuss how we can work together on your next Data Analysis, Data Science or ML project.
         </p>

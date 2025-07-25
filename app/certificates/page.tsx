@@ -51,7 +51,7 @@
 //   {
 //     id: 3,
 //     title: "Deep Learning Specialization",
-//     issuer: "DeepLearning.AI",
+//     issuer: "Udemy",
 //     date: "2025",
 //     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
@@ -92,7 +92,7 @@
 //     id: 7,
 //     title: "TensorFlow Developer Certificate",
 //     issuer: "Google",
-//     date: "2022",
+//     date: "2025",
 //     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate7",
@@ -101,8 +101,8 @@
 //   {
 //     id: 8,
 //     title: "Natural Language Processing Specialization",
-//     issuer: "DeepLearning.AI",
-//     date: "2022",
+//     issuer: "Udemy",
+//     date: "2025",
 //     image: "/Certificate/?height=400&width=600",
 //     categories: ["ML", "AI"],
 //     link: "https://example.com/certificate8",
@@ -573,7 +573,7 @@ const certificates = [
     title: "Data Science  Certificate",
     issuer: "Udemy",
     date: "2025",
-    categories: ["Data Science", "ML"],
+    categories: ["Data Science/ ML"],
     link: "https://example.com/certificate1",
     image: "/Certificate/db.png?height=600&width=600",
     pdfUrl: "/Certificate/ds.pdf?height=6s00&width=600",
@@ -620,21 +620,30 @@ const certificates = [
     image: "/Certificate/4.png?height=400&width=600",
     categories: ["AI"],
   },
-  {
+  /*{
     id: 7,
     title: "Power BI: Data Visualization",
     issuer: "Udemy",
     date: "2025",
     image: "/Certificate/5.png?height=400&width=600",
     categories: ["Power BI/ Tableau"],
-  },
+  }, */
+   
   {
-    id: 8,
-    title: "Microsoft Power BI & AI Dashboards",
+    id: 21,
+    title: "Microsoft Power BI & AI ",
     issuer: "Udemy",
     date: "2025",
     image: "/Certificate/6.png?height=400&width=600",
     categories: ["Power BI/ Tableau"],
+  },
+  {
+    id: 8,
+    title: "Data Analysis",
+    issuer: "Udacity",
+    date: "2024",
+    image: "/Certificate/19.png?height=400&width=600",
+    categories: ["Data Analysis"],
   },
    {
     id: 9,
@@ -662,48 +671,76 @@ const certificates = [
   },
    {
     id: 12,
-    title: "Natural Language Processing Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2022",
+    title: "Deep Learning Python Project",
+    issuer: "Udemy",
+    date: "2025",
     image: "/Certificate/10.png?height=400&width=600",
-    categories: ["ML", "AI"],
+    categories: ["Python"],
   },
+   
    {
     id: 13,
-    title: "Natural Language Processing Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2022",
+    title: " Data Science Mastery",
+    issuer: "Udemy",
+    date: "2025",
     image: "/Certificate/11.png?height=400&width=600",
-    categories: ["ML", "AI"],
-  },
-   {
+    categories: ["Python","Excel"],
+  }, 
+ {
     id: 14,
-    title: "Natural Language Processing Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2022",
-    image: "/Certificate/12.png?height=400&width=600",
-    categories: ["ML", "AI"],
+    title: "Artificial Intelligence",
+    issuer: "UDACITY",
+    date: "2024",
+    image: "/Certificate/20.png?height=400&width=600",
+    categories: [ "AI"],
   },
+/*   {
+    id: 22,
+    title: "Statistics and Hypothesis Testing",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/12.png?height=400&width=600",
+    categories: ["Data Science/ ML"],
+  },*/
    {
     id: 15,
-    title: "Natural Language Processing Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2022",
+    title: "SQL and PostgreSQL",
+    issuer: "Udemy",
+    date: "2025",
     image: "/Certificate/13.png?height=400&width=600",
-    categories: ["ML", "AI"],
+    categories: ["SQL/Database"],
   },
    {
     id: 16,
-    title: "Natural Language Processing Specialization",
-    issuer: "DeepLearning.AI",
-    date: "2022",
+    title: "Dynamic Excel Reports",
+    issuer: "Udemy",
+    date: "2025",
     image: "/Certificate/14.png?height=400&width=600",
-    categories: ["ML", "AI"],
+    categories: ["Excel"],
   },
+  
+   {
+    id: 19,
+    title: "Predictive Customer Analytics",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/17.png?height=400&width=600",
+    categories: ["Data Science/ ML"],
+  },
+   {
+    id: 20,
+    title: "HR Predictive Analytics",
+    issuer: "Udemy",
+    date: "2025",
+    image: "/Certificate/18.png?height=400&width=600",
+    categories: ["Data Science/ ML"],
+  },
+ 
+  
 ]
 
 // Filter categories
-const categories = ["All", "Excel", "SQL/Database", "Python", "Data Analysis", "Data Science" ,"Power BI/ Tableau",  "ML", "AI"]
+const categories = ["All", "Excel", "SQL/Database", "Python", "Data Analysis","Power BI/ Tableau",  "Data Science/ ML" ,  "AI"]
 
 export default function CertificatesPage() {
   const [activeCategory, setActiveCategory] = useState("All")
@@ -791,11 +828,15 @@ export default function CertificatesPage() {
         transition={{ duration: 0.7 }}
         className="text-center mb-12"
       >
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-amber-300">
-          My Certificates
-        </h1>
+        <h1
+            className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-amber-300"
+            style={{ fontFamily: "Times New Roman, Times, serif" }}
+          >
+            My Certificates
+          </h1>
+
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Professional certifications and courses I've completed to enhance my skills in data science, machine learning,
+          Professional certifications and courses I've completed to enhance my skills in Data Analysis, Data Science, Machine Learning,
           and AI.
         </p>
       </motion.div>
