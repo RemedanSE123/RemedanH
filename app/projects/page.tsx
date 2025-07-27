@@ -406,13 +406,13 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 const projects = [
   {
     id: 1,
-    title: "Predictive Sales Analysis",
+    title: "AI-Powered Excel Insight System",
     description:
-      "Built a machine learning model to predict future sales based on historical data, improving forecast accuracy by 35%.",
+      "Upload Excel files and instantly analyze trends, detect anomalies, generate visualizations, and chat with your data—powered by Groq API and advanced AI.",
     image: "/Certificate/bs.png?height=600&width=800",
-    tags: ["Python", "ML", "Pandas", "Scikit-learn"],
-    categories: ["ML", "Python"],
-    slug: "predictive-sales-analysis",
+    tags: ["Python", "Excel", "AI", "Data Visualization"],
+    categories: ["Excel", "Python"],
+    slug: "Excel",
   },
   {
     id: 2,

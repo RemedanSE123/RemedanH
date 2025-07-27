@@ -195,20 +195,46 @@ const techIcons: Record<string, JSX.Element> = {
 const projectsData = [
   {
     id: 1,
-    title: "Predictive Sales Analysis",
+    title: "AI-Powered Excel Insight System",
     description:
-      "Built a machine learning model to predict future sales based on historical data, improving forecast accuracy by 35%.",
+      "Upload Excel files and instantly analyze trends, detect anomalies, generate visualizations, and chat with your data—powered by Groq API and advanced AI.",
     fullDescription: `
-      This project involved developing a sophisticated machine learning model to predict future sales for a retail client. 
-      By analyzing historical sales data, seasonal trends, and external factors, I created a predictive model that significantly 
-      improved forecast accuracy by 35% compared to their previous methods.
-      
-      The solution incorporated multiple regression algorithms and ensemble methods to capture complex patterns in the data. 
-      I implemented feature engineering techniques to extract meaningful insights from raw sales data, customer demographics, 
-      and market indicators.
-      
-      The final model was deployed as an interactive dashboard that allows business users to generate forecasts, adjust parameters, 
-      and visualize predictions across different product categories and time horizons.
+          AI-Powered Excel Insight System is a smart, web-based platform that transforms static Excel files into dynamic, AI-generated insights — perfect for users with no coding background.
+
+          🟢 Upload & Analyze Instantly
+          Easily upload any .xlsx file to begin instant interactive analysis with minimal setup.
+
+          💬 Chat Directly with Your Data
+          Talk to your data using natural language! The integrated AI chatbot (powered by Groq API) responds to questions like:
+          ✅ “What’s the total revenue in Q1 2023?”
+          ✅ “Are there any outliers or anomalies?”
+          ✅ “Summarize the performance trend for the last 5 years.”
+
+          🧠 AI-Powered Intelligence
+          Get advanced insights with:
+          ✅ Automatic anomaly detection
+          ✅ Statistical summaries
+          ✅ Smart pattern recognition
+          ✅ Predictive insights
+
+          📊 Interactive Visualizations
+          Select any two columns from your Excel sheet to create:
+          ✅ Bar Charts
+          ✅ Pie Charts
+          ✅ Column Charts
+          ✅ Line Charts
+
+          ✅ No-Code, Insight-Driven Design
+          The system is built for users who need quick insights without coding or complex BI tools. It features:
+          ✅ Clean, responsive dashboard
+          ✅ Built-in error handling for messy Excel files
+          ✅ Friendly feedback from the chatbot interface
+
+          🚀 Future-Ready Architecture
+          Designed for expansion and integration:
+          ✅ Add support for CSV or Google Sheets
+          ✅ Easily integrate with tools like Power BI, Tableau, or custom dashboards
+
     `,
     image: "/Project/23.png?height=600&width=800",
     gallery: [
@@ -217,18 +243,27 @@ const projectsData = [
       "/Certificate/8.png?height=600&width=800&text=Dashboard+Interface",
       "/Certificate/9.png?height=600&width=800&text=Results+Comparison",
     ],
-    videoUrl: "/Project/bandicam 2025-07-20 13-05-20-651.mp4",
+    videoUrl: "/Project/excel.mp4",
     videoPoster: "/Certificate/6.png?height=600&width=800&text=Sales+Analysis+Preview",
     videoDuration: "2:15",
     videoThumbnail: "/Project/23.png?height=600&width=800&text=Video+Thumbnail",
     tags: ["Python", "ML", "Pandas", "Scikit-learn", "Time Series Analysis", "Forecasting"],
     categories: ["ML", "Python"],
-    slug: "predictive-sales-analysis",
+    slug: "Excel",
     achievements: [
-      "Improved sales forecast accuracy by 35%",
-      "Reduced inventory costs by 22% through optimized stocking",
-      "Implemented automated weekly forecasting process",
-      "Created interactive visualization dashboard for business users",
+     "Powered by Groq’s blazing-fast API for ultra-responsive chatbot interaction",
+
+      "Interactive graph builder from any Excel column combination",
+
+      "Natural language support — ask any question and get contextual responses",
+
+      "No-code needed — accessible to anyone familiar with Excel",
+
+      "Real-time insights on trends, anomalies, summaries, and visualizations",
+
+      "Smart insight engine that automatically surfaces patterns and flags issues",
+
+      "Easily extendable for CSV, Google Sheets, or integration with dashboards (e.g., Power BI, Tableau)",
     ],
     technologies: [
       { name: "Python", icon: "🐍" },
