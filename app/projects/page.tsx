@@ -18,7 +18,7 @@
 //     title: "Predictive Sales Analysis",
 //     description:
 //       "Built a machine learning model to predict future sales based on historical data, improving forecast accuracy by 35%.",
-//     image: "/Certificate/bs.png?height=600&width=800",
+//     image: "/Project/bs.png?height=600&width=800",
 //     tags: ["Python", "ML", "Pandas", "Scikit-learn"],
 //     categories: ["ML", "Python"],
 //     slug: "predictive-sales-analysis",
@@ -37,7 +37,7 @@
 //     id: 3,
 //     title: "Neural Network for Image Classification",
 //     description: "Developed a convolutional neural network for classifying satellite imagery with 92% accuracy.",
-//     image: "/Certificate/7.png?height=600&width=800",
+//     image: "/Project/7.png?height=600&width=800",
 //     tags: ["Python", "TensorFlow", "AI", "ML"],
 //     categories: ["ML", "AI", "Python"],
 //     slug: "neural-network-image-classification",
@@ -47,7 +47,7 @@
 //   //   title: "Sales Performance Excel Dashboard",
 //   //   description:
 //   //     "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
-//   //   image: "/Certificate/8.png?height=600&width=800",
+//   //   image: "/Project/8.png?height=600&width=800",
 //   //   tags: ["Excel", "Data Analysis", "VBA"],
 //   //   categories: ["Excel"],
 //   //   slug: "sales-performance-excel-dashboard",
@@ -409,7 +409,7 @@ const projects = [
     title: "AI-Powered Excel Insight System",
     description:
       "Upload Excel files and instantly analyze trends, detect anomalies, generate visualizations, and chat with your data—powered by Groq API and advanced AI.",
-    image: "/Certificate/bs.png?height=600&width=800",
+    image: "/Project/28.png?height=600&width=800",
     tags: ["Python", "Excel", "AI", "Data Visualization"],
     categories: ["Excel", "Python"],
     slug: "Excel",
@@ -428,31 +428,31 @@ const projects = [
     id: 3,
     title: "Neural Network for Image Classification",
     description: "Developed a convolutional neural network for classifying satellite imagery with 92% accuracy.",
-    image: "/Certificate/7.png?height=600&width=800",
+    image: "/Project/32.png?height=600&width=800",
     tags: ["Python", "TensorFlow", "AI", "ML"],
     categories: ["ML", "AI", "Python"],
     slug: "neural-network-image-classification",
   },
-  // {
-  //   id: 4,
-  //   title: "Sales Performance Excel Dashboard",
-  //   description:
-  //     "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
-  //   image: "/Certificate/8.png?height=600&width=800",
-  //   tags: ["Excel", "Data Analysis", "VBA"],
-  //   categories: ["Excel"],
-  //   slug: "sales-performance-excel-dashboard",
-  // },
-  // {
-  //   id: 5,
-  //   title: "SQL Database Optimization",
-  //   description:
-  //     "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
-  //   image: "/placeholder.svg?height=600&width=800",
-  //   tags: ["SQL", "Database Design", "Performance Tuning"],
-  //   categories: ["SQL"],
-  //   slug: "sql-database-optimization",
-  // },
+  {
+    id: 4,
+    title: "Sales Performance Excel Dashboard",
+    description:
+      "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
+    image: "/Project/36.png?height=600&width=800",
+    tags: ["Excel", "Data Analysis", "VBA"],
+    categories: ["Excel"],
+    slug: "sales-performance-excel-dashboard",
+  },
+  {
+    id: 5,
+    title: "SQL Database Optimization",
+    description:
+      "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["SQL", "Database Design", "Performance Tuning"],
+    categories: ["SQL"],
+    slug: "sql-database-optimization",
+  },
   // {
   //   id: 6,
   //   title: "Power BI Sales Analytics",

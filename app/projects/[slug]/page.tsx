@@ -236,15 +236,15 @@ const projectsData = [
           ✅ Easily integrate with tools like Power BI, Tableau, or custom dashboards
 
     `,
-    image: "/Project/23.png?height=600&width=800",
+    image: "/Project/28.png?height=600&width=800",
     gallery: [
-      "/Certificate/6.png?height=600&width=800&text=Data+Visualization",
-      "/Certificate/7.png?height=600&width=800&text=Model+Architecture",
-      "/Certificate/8.png?height=600&width=800&text=Dashboard+Interface",
-      "/Certificate/9.png?height=600&width=800&text=Results+Comparison",
+      "/Project/27.png?height=600&width=800&text=Data+Visualization",
+      "/Project/29.png?height=600&width=800&text=Model+Architecture",
+      "/Project/30.png?height=600&width=800&text=Dashboard+Interface",
+      "/Project/31.png?height=600&width=800&text=Results+Comparison",
     ],
     videoUrl: "/Project/excel.mp4",
-    videoPoster: "/Certificate/6.png?height=600&width=800&text=Sales+Analysis+Preview",
+    videoPoster: "/Project/28.png?height=600&width=800&text=Sales+Analysis+Preview",
     videoDuration: "2:15",
     videoThumbnail: "/Project/23.png?height=600&width=800&text=Video+Thumbnail",
     tags: ["Python", "ML", "Pandas", "Scikit-learn", "Time Series Analysis", "Forecasting"],
@@ -311,7 +311,7 @@ const projectsData = [
     videoUrl: "/Project/ethiopia.mp4",
     videoPoster: "/Project/23.png?height=600&width=800&text=Dashboard+Demo+Preview",
     
-    videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
+    videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
     tags: [ "SQL", "Excel", "Python","Node.js", "Express", "React" ],
     categories: ["Excel", "SQL" ],
     slug: "ethiopia",
@@ -350,15 +350,15 @@ const projectsData = [
       The final solution includes a web interface where users can upload satellite images and receive instant classification 
       results with confidence scores. The model was deployed using TensorFlow Serving for efficient inference.
     `,
-    image: "/Project/23.png?height=600&width=800",
+    image: "/Project/32.png?height=600&width=800",
     gallery: [
-      "/placeholder.svg?height=600&width=800&text=CNN+Architecture",
-      "/placeholder.svg?height=600&width=800&text=Training+Results",
-      "/placeholder.svg?height=600&width=800&text=Classification+Examples",
-      "/placeholder.svg?height=600&width=800&text=Web+Interface",
+      "/Project/32.png?height=600&width=800&text=CNN+Architecture",
+      "/Project/33.png?height=600&width=800&text=Training+Results",
+      "/Project/34.png?height=600&width=800&text=Classification+Examples",
+      "/Project/35.png?height=600&width=800&text=Web+Interface",
     ],
-    videoUrl: "https://www.example.com/video",
-    videoPoster: "/placeholder.svg?height=600&width=800&text=AI+Model+Training+Preview",
+    videoUrl: "/Project/1.mp4",
+    videoPoster: "/Project/32.png?height=600&width=800&text=AI+Model+Training+Preview",
     videoDuration: "4:28",
     videoThumbnail: "/Project/23.png?height=600&width=800&text=Video+Thumbnail",
     tags: ["Python", "TensorFlow", "AI", "ML", "CNN", "Computer Vision"],
@@ -385,103 +385,104 @@ const projectsData = [
     ],
   },
 
-  //  {
-  //   id: 4,
-  //   title: "Sales Performance Excel Dashboard",
-  //   description:
-  //     "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
-  //   fullDescription: `
-  //     This project involved developing a sophisticated Excel dashboard to track and analyze sales performance for a medium-sized 
-  //     retail company. The solution leverages advanced Excel features including pivot tables, dynamic arrays, and custom VBA macros 
-  //     to provide actionable insights.
+   {
+    id: 4,
+    title: "Sales Performance Excel Dashboard",
+    description:
+      "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
+    fullDescription: `
+      This project involved developing a sophisticated Excel dashboard to track and analyze sales performance for a medium-sized 
+      retail company. The solution leverages advanced Excel features including pivot tables, dynamic arrays, and custom VBA macros 
+      to provide actionable insights.
       
-  //     The dashboard automatically processes raw sales data and presents key metrics such as revenue trends, product performance, 
-  //     regional comparisons, and sales rep productivity. Interactive filters allow users to drill down into specific time periods, 
-  //     product categories, or sales territories.
+      The dashboard automatically processes raw sales data and presents key metrics such as revenue trends, product performance, 
+      regional comparisons, and sales rep productivity. Interactive filters allow users to drill down into specific time periods, 
+      product categories, or sales territories.
       
-  //     I implemented custom VBA scripts to automate data refresh and report generation, significantly reducing the time required 
-  //     for monthly reporting. The solution also includes forecasting models based on historical trends and seasonality factors.
-  //   `,
-  //   image: "/placeholder.svg?height=600&width=800",
-  //   gallery: [
-  //     "/placeholder.svg?height=600&width=800&text=Dashboard+Overview",
-  //     "/placeholder.svg?height=600&width=800&text=Sales+Trends",
-  //     "/placeholder.svg?height=600&width=800&text=Regional+Performance",
-  //     "/placeholder.svg?height=600&width=800&text=Product+Analysis",
-  //   ],
-  //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
-  //   tags: ["Excel", "Data Analysis", "VBA", "Dashboard Design", "Business Intelligence"],
-  //   categories: ["Excel"],
-  //   slug: "sales-performance-excel-dashboard",
-  //   achievements: [
-  //     "Reduced monthly reporting time from 2 days to 2 hours",
-  //     "Identified underperforming products leading to $120K in cost savings",
-  //     "Improved sales team productivity by 18% through targeted insights",
-  //     "Created automated email reporting system using VBA",
-  //   ],
-  //   technologies: [
-  //     { name: "Excel", icon: "📑" },
-  //     { name: "VBA", icon: "⌨️" },
-  //     { name: "Power Query", icon: "🔄" },
-  //     { name: "Pivot Tables", icon: "📊" },
-  //     { name: "Excel Charts", icon: "📈" },
-  //   ],
-  //   timeline: "1 month (Oct 2023)",
-  //   team: "Solo project with input from sales managers",
-  //   links: [
-  //     { type: "github", url: "https://github.com/yourusername/excel-sales-dashboard" },
-  //     { type: "live", url: "https://example.com/demo" },
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   title: "SQL Database Optimization",
-  //   description:
-  //     "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
-  //   fullDescription: `
-  //     This project focused on optimizing a large-scale SQL database for an e-commerce platform that was experiencing performance issues 
-  //     as their data volume grew. I conducted a comprehensive analysis of database structure, query patterns, and performance bottlenecks.
+      I implemented custom VBA scripts to automate data refresh and report generation, significantly reducing the time required 
+      for monthly reporting. The solution also includes forecasting models based on historical trends and seasonality factors.
+    `,
+    image: "/Project/36.png?height=600&width=800",
+    gallery: [
+      "/Project/36.png?height=600&width=800&text=Dashboard+Overview",
+      "/Project/37.png?height=600&width=800&text=Sales+Trends",
+      "/Project/38.png?height=600&width=800&text=Regional+Performance",
+      "/Project/40.png?height=600&width=800&text=Product+Analysis",
+    ],
+    videoUrl: "/Project/2.mp4",
+    videoPoster: "/Project/36.png?height=600&width=800&text=AI+Model+Training+Preview",
+    videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
+    tags: ["Excel", "Data Analysis", "VBA", "Dashboard Design", "Business Intelligence"],
+    categories: ["Excel"],
+    slug: "sales-performance-excel-dashboard",
+    achievements: [
+      "Reduced monthly reporting time from 2 days to 2 hours",
+      "Identified underperforming products leading to $120K in cost savings",
+      "Improved sales team productivity by 18% through targeted insights",
+      "Created automated email reporting system using VBA",
+    ],
+    technologies: [
+      { name: "Excel", icon: "📑" },
+      { name: "VBA", icon: "⌨️" },
+      { name: "Power Query", icon: "🔄" },
+      { name: "Pivot Tables", icon: "📊" },
+      { name: "Excel Charts", icon: "📈" },
+    ],
+    timeline: "1 month (Oct 2023)",
+    team: "Solo project with input from sales managers",
+    links: [
+      { type: "github", url: "https://github.com/yourusername/excel-sales-dashboard" },
+      { type: "live", url: "https://example.com/demo" },
+    ],
+  },
+  {
+    id: 5,
+    title: "SQL Database Optimization",
+    description:
+      "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
+    fullDescription: `
+      This project focused on optimizing a large-scale SQL database for an e-commerce platform that was experiencing performance issues 
+      as their data volume grew. I conducted a comprehensive analysis of database structure, query patterns, and performance bottlenecks.
       
-  //     The optimization strategy included redesigning table schemas, implementing appropriate indexing strategies, normalizing data where 
-  //     needed, and rewriting inefficient queries. I also implemented partitioning for large tables to improve query performance on 
-  //     historical data.
+      The optimization strategy included redesigning table schemas, implementing appropriate indexing strategies, normalizing data where 
+      needed, and rewriting inefficient queries. I also implemented partitioning for large tables to improve query performance on 
+      historical data.
       
-  //     Additionally, I developed a monitoring system to track query performance over time and identify potential issues before they 
-  //     impact users. The solution included detailed documentation and training for the development team on database best practices.
-  //   `,
-  //   image: "/placeholder.svg?height=600&width=800",
-  //   gallery: [
-  //     "/placeholder.svg?height=600&width=800&text=Performance+Comparison",
-  //     "/placeholder.svg?height=600&width=800&text=Database+Schema",
-  //     "/placeholder.svg?height=600&width=800&text=Query+Optimization",
-  //     "/placeholder.svg?height=600&width=800&text=Monitoring+Dashboard",
-  //   ],
-  //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
-  //   tags: ["SQL", "Database Design", "Performance Tuning", "Query Optimization", "Database Administration"],
-  //   categories: ["SQL"],
-  //   slug: "sql-database-optimization",
-  //   achievements: [
-  //     "Reduced average query execution time by 40%",
-  //     "Decreased database size by 35% through proper normalization",
-  //     "Improved application response time by 25%",
-  //     "Implemented automated performance monitoring system",
-  //   ],
-  //   technologies: [
-  //     { name: "SQL", icon: "🗃️" },
-  //     { name: "PostgreSQL", icon: "🐘" },
-  //     { name: "Database Indexing", icon: "🔍" },
-  //     { name: "Query Optimization", icon: "⚡" },
-  //     { name: "Performance Monitoring", icon: "📉" },
-  //   ],
-  //   timeline: "3 months (Nov 2023 - Jan 2024)",
-  //   team: "Collaborated with 2 backend developers",
-  //   links: [
-  //     { type: "github", url: "https://github.com/yourusername/sql-optimization" },
-  //     { type: "live", url: "https://example.com/demo" },
-  //   ],
-  // },
+      Additionally, I developed a monitoring system to track query performance over time and identify potential issues before they 
+      impact users. The solution included detailed documentation and training for the development team on database best practices.
+    `,
+    image: "/Project/.png?height=600&width=800",
+    gallery: [
+      "/Project/.png?height=600&width=800&text=Performance+Comparison",
+      "/Project/.png?height=600&width=800&text=Database+Schema",
+      "/Project/.png?height=600&width=800&text=Query+Optimization",
+      "/Project/.png?height=600&width=800&text=Monitoring+Dashboard",
+    ],
+    videoUrl: "https://www.example.com/video",
+    videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
+    tags: ["SQL", "Database Design", "Performance Tuning", "Query Optimization", "Database Administration"],
+    categories: ["SQL"],
+    slug: "sql-database-optimization",
+    achievements: [
+      "Reduced average query execution time by 40%",
+      "Decreased database size by 35% through proper normalization",
+      "Improved application response time by 25%",
+      "Implemented automated performance monitoring system",
+    ],
+    technologies: [
+      { name: "SQL", icon: "🗃️" },
+      { name: "PostgreSQL", icon: "🐘" },
+      { name: "Database Indexing", icon: "🔍" },
+      { name: "Query Optimization", icon: "⚡" },
+      { name: "Performance Monitoring", icon: "📉" },
+    ],
+    timeline: "3 months (Nov 2023 - Jan 2024)",
+    team: "Collaborated with 2 backend developers",
+    links: [
+      { type: "github", url: "https://github.com/yourusername/sql-optimization" },
+      { type: "live", url: "https://example.com/demo" },
+    ],
+  },
   // {
   //   id: 6,
   //   title: "Power BI Sales Analytics",
@@ -499,15 +500,15 @@ const projectsData = [
   //     into specific areas of interest, and identify trends or anomalies. Automated data refresh ensures that decision-makers always 
   //     have access to the latest information.
   //   `,
-  //   image: "/placeholder.svg?height=600&width=800",
+  //   image: "/Project/.png?height=600&width=800",
   //   gallery: [
-  //     "/placeholder.svg?height=600&width=800&text=Executive+Dashboard",
-  //     "/placeholder.svg?height=600&width=800&text=Regional+Analysis",
-  //     "/placeholder.svg?height=600&width=800&text=Product+Performance",
-  //     "/placeholder.svg?height=600&width=800&text=Trend+Analysis",
+  //     "/Project/.png?height=600&width=800&text=Executive+Dashboard",
+  //     "/Project/.png?height=600&width=800&text=Regional+Analysis",
+  //     "/Project/.png?height=600&width=800&text=Product+Performance",
+  //     "/Project/.png?height=600&width=800&text=Trend+Analysis",
   //   ],
   //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
+  //   videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
   //   tags: ["Power BI", "DAX", "Data Modeling", "Business Intelligence", "Data Visualization"],
   //   categories: ["Power BI"],
   //   slug: "power-bi-sales-analytics",
@@ -548,15 +549,15 @@ const projectsData = [
   //     and allows users to drill down into specific feedback categories. Automated alerts notify stakeholders when significant 
   //     sentiment shifts occur.
   //   `,
-  //   image: "/placeholder.svg?height=600&width=800",
+  //   image: "/Project/.png?height=600&width=800",
   //   gallery: [
-  //     "/placeholder.svg?height=600&width=800&text=Sentiment+Dashboard",
-  //     "/placeholder.svg?height=600&width=800&text=Topic+Modeling",
-  //     "/placeholder.svg?height=600&width=800&text=Trend+Analysis",
-  //     "/placeholder.svg?height=600&width=800&text=Alert+System",
+  //     "/Project/.png?height=600&width=800&text=Sentiment+Dashboard",
+  //     "/Project/.png?height=600&width=800&text=Topic+Modeling",
+  //     "/Project/.png?height=600&width=800&text=Trend+Analysis",
+  //     "/Project/.png?height=600&width=800&text=Alert+System",
   //   ],
   //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
+  //   videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
   //   tags: ["Python", "NLP", "ML", "AI", "NLTK", "spaCy", "Sentiment Analysis"],
   //   categories: ["ML", "AI", "Python"],
   //   slug: "sentiment-analysis-tool",
@@ -598,15 +599,15 @@ const projectsData = [
   //     recommendations for corrective actions. Integration with the factory's control systems allows for automated adjustments 
   //     in some scenarios.
   //   `,
-  //   image: "/placeholder.svg?height=600&width=800",
+  //   image: "/Project/.png?height=600&width=800",
   //   gallery: [
-  //     "/placeholder.svg?height=600&width=800&text=Monitoring+Dashboard",
-  //     "/placeholder.svg?height=600&width=800&text=Anomaly+Visualization",
-  //     "/placeholder.svg?height=600&width=800&text=Alert+System",
-  //     "/placeholder.svg?height=600&width=800&text=Performance+Metrics",
+  //     "/Project/.png?height=600&width=800&text=Monitoring+Dashboard",
+  //     "/Project/.png?height=600&width=800&text=Anomaly+Visualization",
+  //     "/Project/.png?height=600&width=800&text=Alert+System",
+  //     "/Project/.png?height=600&width=800&text=Performance+Metrics",
   //   ],
   //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/placeholder.svg?height=600&width=800&text=Video+Thumbnail",
+  //   videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
   //   tags: ["Python", "ML", "Statistical Analysis", "Time Series", "IoT", "Real-time Processing"],
   //   categories: ["ML", "Python"],
   //   slug: "anomaly-detection-system",
@@ -709,7 +710,7 @@ export default function ProjectDetailPage() {
             <video
               controls
               className="w-full h-full"
-              poster={project.videoPoster || project.videoThumbnail || "/placeholder.svg"}
+              poster={project.videoPoster || project.videoThumbnail || "/Project/.svg"}
               preload="metadata"
               style={{ objectFit: "contain" }}
             >
@@ -776,7 +777,7 @@ export default function ProjectDetailPage() {
             <TabsContent value="gallery" className="space-y-6">
               <div className="relative aspect-video overflow-hidden rounded-xl border border-amber-500/20 shadow-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
                 <Image
-                  src={project.gallery[activeImageIndex] || "/placeholder.svg"}
+                  src={project.gallery[activeImageIndex] || "/Project/.svg"}
                   alt={`${project.title} gallery image ${activeImageIndex + 1}`}
                   fill
                   className="object-contain"
@@ -795,7 +796,7 @@ export default function ProjectDetailPage() {
                     onClick={() => setActiveImageIndex(index)}
                   >
                     <Image
-                      src={image || "/placeholder.svg"}
+                      src={image || "/Project/.svg"}
                       alt={`${project.title} thumbnail ${index + 1}`}
                       fill
                       className="object-contain"
@@ -891,7 +892,7 @@ export default function ProjectDetailPage() {
                   >
                     <div className="relative w-16 h-16 rounded-md overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
                       <Image
-                        src={relatedProject.image || "/placeholder.svg"}
+                        src={relatedProject.image || "/Project/.svg"}
                         alt={relatedProject.title}
                         fill
                         className="object-contain"
