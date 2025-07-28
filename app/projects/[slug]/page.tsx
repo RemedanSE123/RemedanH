@@ -387,7 +387,7 @@ const projectsData = [
 
    {
     id: 4,
-    title: "Sales Performance Excel Dashboard",
+    title: "Highest Paying Job in Data?",
     description:
       "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
     fullDescription: `
@@ -414,7 +414,7 @@ const projectsData = [
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
     tags: ["Excel", "Data Analysis", "VBA", "Dashboard Design", "Business Intelligence"],
     categories: ["Excel"],
-    slug: "sales-performance-excel-dashboard",
+    slug: "data",
     achievements: [
       "Reduced monthly reporting time from 2 days to 2 hours",
       "Identified underperforming products leading to $120K in cost savings",
@@ -437,7 +437,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "SQL Database Optimization",
+    title: "Agriculture Investment Support System",
     description:
       "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
     fullDescription: `
@@ -451,18 +451,19 @@ const projectsData = [
       Additionally, I developed a monitoring system to track query performance over time and identify potential issues before they 
       impact users. The solution included detailed documentation and training for the development team on database best practices.
     `,
-    image: "/Project/.png?height=600&width=800",
+    image: "/Project/41.jpg?height=600&width=800",
     gallery: [
-      "/Project/.png?height=600&width=800&text=Performance+Comparison",
-      "/Project/.png?height=600&width=800&text=Database+Schema",
-      "/Project/.png?height=600&width=800&text=Query+Optimization",
-      "/Project/.png?height=600&width=800&text=Monitoring+Dashboard",
+      "/Project/42.jpg?height=600&width=800&text=Performance+Comparison",
+      "/Project/43.jpg?height=600&width=800&text=Database+Schema",
+      "/Project/44.jpg?height=600&width=800&text=Query+Optimization",
+      "/Project/45.jpg?height=600&width=800&text=Monitoring+Dashboard",
     ],
-    videoUrl: "https://www.example.com/video",
+    videoUrl: "/Project/3.mp4",
+     videoPoster: "/Project/41.jpg?height=600&width=800&text=AI+Model+Training+Preview",
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
     tags: ["SQL", "Database Design", "Performance Tuning", "Query Optimization", "Database Administration"],
     categories: ["SQL"],
-    slug: "sql-database-optimization",
+    slug: "agri",
     achievements: [
       "Reduced average query execution time by 40%",
       "Decreased database size by 35% through proper normalization",
@@ -483,104 +484,106 @@ const projectsData = [
       { type: "live", url: "https://example.com/demo" },
     ],
   },
-  // {
-  //   id: 6,
-  //   title: "Power BI Sales Analytics",
-  //   description:
-  //     "Developed interactive Power BI dashboards for sales analytics, providing real-time insights for decision-making.",
-  //   fullDescription: `
-  //     This project involved creating a comprehensive Power BI solution for sales analytics at a multinational retail company. 
-  //     The dashboards provide real-time insights into sales performance across multiple dimensions including products, regions, 
-  //     time periods, and sales channels.
+  {
+    id: 6,
+    title: "Data Jobs Dashbord 2.0",
+    description:
+      "Developed interactive Power BI dashboards for sales analytics, providing real-time insights for decision-making.",
+    fullDescription: `
+      This project involved creating a comprehensive Power BI solution for sales analytics at a multinational retail company. 
+      The dashboards provide real-time insights into sales performance across multiple dimensions including products, regions, 
+      time periods, and sales channels.
       
-  //     I designed and implemented a star schema data model to efficiently handle large volumes of sales data. The solution includes 
-  //     custom DAX measures for complex calculations such as year-over-year growth, moving averages, and contribution margins.
+      I designed and implemented a star schema data model to efficiently handle large volumes of sales data. The solution includes 
+      custom DAX measures for complex calculations such as year-over-year growth, moving averages, and contribution margins.
       
-  //     The interactive dashboards allow executives and sales managers to explore data through intuitive visualizations, drill down 
-  //     into specific areas of interest, and identify trends or anomalies. Automated data refresh ensures that decision-makers always 
-  //     have access to the latest information.
-  //   `,
-  //   image: "/Project/.png?height=600&width=800",
-  //   gallery: [
-  //     "/Project/.png?height=600&width=800&text=Executive+Dashboard",
-  //     "/Project/.png?height=600&width=800&text=Regional+Analysis",
-  //     "/Project/.png?height=600&width=800&text=Product+Performance",
-  //     "/Project/.png?height=600&width=800&text=Trend+Analysis",
-  //   ],
-  //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
-  //   tags: ["Power BI", "DAX", "Data Modeling", "Business Intelligence", "Data Visualization"],
-  //   categories: ["Power BI"],
-  //   slug: "power-bi-sales-analytics",
-  //   achievements: [
-  //     "Consolidated data from 5 different source systems",
-  //     "Reduced executive reporting time by 75%",
-  //     "Identified $1.2M in revenue opportunities through trend analysis",
-  //     "Implemented automated daily refresh and distribution",
-  //   ],
-  //   technologies: [
-  //     { name: "Power BI", icon: "📊" },
-  //     { name: "DAX", icon: "🔢" },
-  //     { name: "Power Query", icon: "🔄" },
-  //     { name: "SQL", icon: "🗃️" },
-  //     { name: "Data Modeling", icon: "🏗️" },
-  //   ],
-  //   timeline: "2 months (Feb 2024 - Mar 2024)",
-  //   team: "Led a team of 3 BI developers",
-  //   links: [
-  //     { type: "github", url: "https://github.com/yourusername/power-bi-sales" },
-  //     { type: "live", url: "https://example.com/demo" },
-  //   ],
-  // },
-  // {
-  //   id: 7,
-  //   title: "Sentiment Analysis Tool",
-  //   description: "Built an NLP-based sentiment analysis tool to analyze customer feedback and social media mentions.",
-  //   fullDescription: `
-  //     This project involved developing a sophisticated sentiment analysis tool that processes customer feedback from multiple 
-  //     channels including surveys, support tickets, and social media. The solution uses natural language processing (NLP) techniques 
-  //     to classify text as positive, negative, or neutral, and extract key themes and topics.
+      The interactive dashboards allow executives and sales managers to explore data through intuitive visualizations, drill down 
+      into specific areas of interest, and identify trends or anomalies. Automated data refresh ensures that decision-makers always 
+      have access to the latest information.
+    `,
+    image: "/Project/48.png?height=600&width=800",
+    gallery: [
+      "/Project/48.png?height=600&width=800&text=Executive+Dashboard",
+      "/Project/46.png?height=600&width=800&text=Regional+Analysis",
+      "/Project/47.png?height=600&width=800&text=Product+Performance",
+      "/Project/49.png?height=600&width=800&text=Trend+Analysis",
+    ],
+    videoUrl: "/Project/4.mp4",
+     videoPoster: "/Project/48.png?height=600&width=800&text=AI+Model+Training+Preview",
+    videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
+    tags: ["Power BI", "DAX", "Data Modeling", "Business Intelligence", "Data Visualization"],
+    categories: ["Power BI"],
+    slug: "data2",
+    achievements: [
+      "Consolidated data from 5 different source systems",
+      "Reduced executive reporting time by 75%",
+      "Identified $1.2M in revenue opportunities through trend analysis",
+      "Implemented automated daily refresh and distribution",
+    ],
+    technologies: [
+      { name: "Power BI", icon: "📊" },
+      { name: "DAX", icon: "🔢" },
+      { name: "Power Query", icon: "🔄" },
+      { name: "SQL", icon: "🗃️" },
+      { name: "Data Modeling", icon: "🏗️" },
+    ],
+    timeline: "2 months (Feb 2024 - Mar 2024)",
+    team: "Led a team of 3 BI developers",
+    links: [
+      { type: "github", url: "https://github.com/yourusername/power-bi-sales" },
+      { type: "live", url: "https://example.com/demo" },
+    ],
+  },
+  {
+    id: 7,
+    title: "Digital Address Registration System",
+    description: "Built an NLP-based sentiment analysis tool to analyze customer feedback and social media mentions.",
+    fullDescription: `
+      This project involved developing a sophisticated sentiment analysis tool that processes customer feedback from multiple 
+      channels including surveys, support tickets, and social media. The solution uses natural language processing (NLP) techniques 
+      to classify text as positive, negative, or neutral, and extract key themes and topics.
       
-  //     I implemented a hybrid approach combining lexicon-based methods with machine learning models to achieve high accuracy across 
-  //     different types of text. The system can handle industry-specific terminology and context, providing more relevant insights 
-  //     than generic sentiment tools.
+      I implemented a hybrid approach combining lexicon-based methods with machine learning models to achieve high accuracy across 
+      different types of text. The system can handle industry-specific terminology and context, providing more relevant insights 
+      than generic sentiment tools.
       
-  //     The final solution includes an interactive dashboard that displays sentiment trends over time, highlights emerging issues, 
-  //     and allows users to drill down into specific feedback categories. Automated alerts notify stakeholders when significant 
-  //     sentiment shifts occur.
-  //   `,
-  //   image: "/Project/.png?height=600&width=800",
-  //   gallery: [
-  //     "/Project/.png?height=600&width=800&text=Sentiment+Dashboard",
-  //     "/Project/.png?height=600&width=800&text=Topic+Modeling",
-  //     "/Project/.png?height=600&width=800&text=Trend+Analysis",
-  //     "/Project/.png?height=600&width=800&text=Alert+System",
-  //   ],
-  //   videoUrl: "https://www.example.com/video",
-  //   videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
-  //   tags: ["Python", "NLP", "ML", "AI", "NLTK", "spaCy", "Sentiment Analysis"],
-  //   categories: ["ML", "AI", "Python"],
-  //   slug: "sentiment-analysis-tool",
-  //   achievements: [
-  //     "Achieved 87% accuracy in sentiment classification",
-  //     "Processed over 100,000 customer feedback items monthly",
-  //     "Identified 3 major product issues before they affected sales",
-  //     "Reduced time to identify emerging issues from weeks to hours",
-  //   ],
-  //   technologies: [
-  //     { name: "Python", icon: "🐍" },
-  //     { name: "NLTK", icon: "📝" },
-  //     { name: "spaCy", icon: "🔍" },
-  //     { name: "scikit-learn", icon: "🤖" },
-  //     { name: "Flask", icon: "🌐" },
-  //   ],
-  //   timeline: "3 months (Apr 2024 - Jun 2024)",
-  //   team: "Collaborated with marketing and customer support teams",
-  //   links: [
-  //     { type: "github", url: "https://github.com/yourusername/sentiment-analysis" },
-  //     { type: "live", url: "https://example.com/demo" },
-  //   ],
-  // },
+      The final solution includes an interactive dashboard that displays sentiment trends over time, highlights emerging issues, 
+      and allows users to drill down into specific feedback categories. Automated alerts notify stakeholders when significant 
+      sentiment shifts occur.
+    `,
+    image: "/Project/50.png?height=600&width=800",
+    gallery: [
+      "/Project/50.png?height=600&width=800&text=Sentiment+Dashboard",
+      "/Project/51.png?height=600&width=800&text=Topic+Modeling",
+      "/Project/52.png?height=600&width=800&text=Trend+Analysis",
+      "/Project/53.png?height=600&width=800&text=Alert+System",
+    ],
+    videoUrl: "/Project/5.mp4",
+    videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
+     videoPoster: "/Project/50.png?height=600&width=800&text=AI+Model+Training+Preview",
+    tags: ["Python", "NLP", "ML", "AI", "NLTK", "spaCy", "Sentiment Analysis"],
+    categories: ["ML", "AI", "Python"],
+    slug: "address",
+    achievements: [
+      "Achieved 87% accuracy in sentiment classification",
+      "Processed over 100,000 customer feedback items monthly",
+      "Identified 3 major product issues before they affected sales",
+      "Reduced time to identify emerging issues from weeks to hours",
+    ],
+    technologies: [
+      { name: "Python", icon: "🐍" },
+      { name: "NLTK", icon: "📝" },
+      { name: "spaCy", icon: "🔍" },
+      { name: "scikit-learn", icon: "🤖" },
+      { name: "Flask", icon: "🌐" },
+    ],
+    timeline: "3 months (Apr 2024 - Jun 2024)",
+    team: "Collaborated with marketing and customer support teams",
+    links: [
+      { type: "github", url: "https://github.com/yourusername/sentiment-analysis" },
+      { type: "live", url: "https://example.com/demo" },
+    ],
+  },
   // {
   //   id: 8,
   //   title: "Anomaly Detection System",
