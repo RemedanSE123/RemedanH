@@ -604,14 +604,14 @@ const certificates = [
     image: "/Certificate/2.png?height=400&width=600",
     categories: ["SQL/Database"],
   },
-  {
-    id: 5,
-    title: "Time Series Analysis",
-    issuer: "Udemy",
-    date: "2025",
-    image: "/Certificate/3.png?height=400&width=600",
-    categories: ["Python"],
-  },
+  // {
+  //   id: 5,
+  //   title: "Time Series Analysis",
+  //   issuer: "Udemy",
+  //   date: "2025",
+  //   image: "/Certificate/3.png?height=400&width=600",
+  //   categories: ["Python"],
+  // },
   {
     id: 6,
     title: "N8N: AI Agent Creation",
@@ -684,7 +684,7 @@ const certificates = [
     issuer: "Udemy",
     date: "2025",
     image: "/Certificate/11.png?height=400&width=600",
-    categories: ["Python","Excel"],
+    categories: ["Data Science/ ML","Python"],
   }, 
  {
     id: 14,
@@ -719,22 +719,22 @@ const certificates = [
     categories: ["Excel"],
   },
   
-   {
-    id: 19,
-    title: "Predictive Customer Analytics",
-    issuer: "Udemy",
-    date: "2025",
-    image: "/Certificate/17.png?height=400&width=600",
-    categories: ["Data Science/ ML"],
-  },
-   {
-    id: 20,
-    title: "HR Predictive Analytics",
-    issuer: "Udemy",
-    date: "2025",
-    image: "/Certificate/18.png?height=400&width=600",
-    categories: ["Data Science/ ML"],
-  },
+  //  {
+  //   id: 19,
+  //   title: "Predictive Customer Analytics",
+  //   issuer: "Udemy",
+  //   date: "2025",
+  //   image: "/Certificate/17.png?height=400&width=600",
+  //   categories: ["Data Science/ ML"],
+  // },
+  //  {
+  //   id: 20,
+  //   title: "HR Predictive Analytics",
+  //   issuer: "Udemy",
+  //   date: "2025",
+  //   image: "/Certificate/18.png?height=400&width=600",
+  //   categories: ["Data Science/ ML"],
+  // },
  
   
 ]

@@ -199,41 +199,17 @@ const projectsData = [
     description:
       "Upload Excel files and instantly analyze trends, detect anomalies, generate visualizations, and chat with your data—powered by Groq API and advanced AI.",
     fullDescription: `
-          AI-Powered Excel Insight System is a smart, web-based platform that transforms static Excel files into dynamic, AI-generated insights — perfect for users with no coding background.
+        AI-Powered Excel Insight System is an intelligent, web-based platform designed to transform static Excel files into dynamic, meaningful insights—instantly and effortlessly. Tailored for users without any coding experience, this system offers a seamless way to extract value from spreadsheets with just a few clicks.
 
-          🟢 Upload & Analyze Instantly
-          Easily upload any .xlsx file to begin instant interactive analysis with minimal setup.
+With instant upload and analysis, users can simply drag and drop any .xlsx file to kickstart real-time data exploration. There’s no complicated setup—just fast, interactive insights right out of the box.
 
-          💬 Chat Directly with Your Data
-          Talk to your data using natural language! The integrated AI chatbot (powered by Groq API) responds to questions like:
-          ✅ “What’s the total revenue in Q1 2023?”
-          ✅ “Are there any outliers or anomalies?”
-          ✅ “Summarize the performance trend for the last 5 years.”
+One of the platform’s most powerful features is its natural language chatbot interface, powered by Groq’s high-speed AI API. Users can chat directly with their data and ask questions like “What’s the total revenue in Q1 2023?”, “Are there any outliers?”, or “Summarize the performance trend for the last 5 years.” The chatbot understands the context and delivers accurate, easy-to-digest answers in seconds.
 
-          🧠 AI-Powered Intelligence
-          Get advanced insights with:
-          ✅ Automatic anomaly detection
-          ✅ Statistical summaries
-          ✅ Smart pattern recognition
-          ✅ Predictive insights
+Backed by advanced AI capabilities, the system offers smart intelligence features such as automatic anomaly detection, statistical summaries, pattern recognition, and even predictive insights. These tools work together to uncover hidden trends and help users make data-driven decisions confidently.
 
-          📊 Interactive Visualizations
-          Select any two columns from your Excel sheet to create:
-          ✅ Bar Charts
-          ✅ Pie Charts
-          ✅ Column Charts
-          ✅ Line Charts
+For visual learners and professionals who rely on dashboards, the platform includes a powerful chart builder. Users can select any two columns from their Excel file and generate bar charts, pie charts, line charts, and more—without writing a single line of code.
 
-          ✅ No-Code, Insight-Driven Design
-          The system is built for users who need quick insights without coding or complex BI tools. It features:
-          ✅ Clean, responsive dashboard
-          ✅ Built-in error handling for messy Excel files
-          ✅ Friendly feedback from the chatbot interface
-
-          🚀 Future-Ready Architecture
-          Designed for expansion and integration:
-          ✅ Add support for CSV or Google Sheets
-          ✅ Easily integrate with tools like Power BI, Tableau, or custom dashboards
+Built with a clean, responsive dashboard interface, the system is not only easy to navigate but also robust enough to handle messy or inconsistent Excel data. Even users with complex or incomplete files will benefit from the platform’s smart error handling and user-friendly design.
 
     `,
     image: "/Project/28.png?height=600&width=800",
@@ -247,8 +223,8 @@ const projectsData = [
     videoPoster: "/Project/28.png?height=600&width=800&text=Sales+Analysis+Preview",
     videoDuration: "2:15",
     videoThumbnail: "/Project/23.png?height=600&width=800&text=Video+Thumbnail",
-    tags: ["Python", "ML", "Pandas", "Scikit-learn", "Time Series Analysis", "Forecasting"],
-    categories: ["ML", "Python"],
+    tags: ["AI", "Python"],
+    categories: ["AI", "Python"],
     slug: "Excel",
     achievements: [
      "Powered by Groq’s blazing-fast API for ultra-responsive chatbot interaction",
@@ -263,17 +239,15 @@ const projectsData = [
 
       "Smart insight engine that automatically surfaces patterns and flags issues",
 
-      "Easily extendable for CSV, Google Sheets, or integration with dashboards (e.g., Power BI, Tableau)",
+
     ],
     technologies: [
       { name: "Python", icon: "🐍" },
-      { name: "Pandas", icon: "🐼" },
-      { name: "Scikit-learn", icon: "🤖" },
-      { name: "Matplotlib", icon: "📊" },
-      { name: "Jupyter", icon: "📓" },
+     { name: "Excel", icon: "📑" },
+     { name: "AI", icon: "🤖" },
     ],
     timeline: "3 months (Jan 2023 - Mar 2023)",
-    team: "Solo project with guidance from senior data scientist",
+    team: "Solo project with guidance from senior Data scientist",
     links: [
       { type: "github", url: "https://github.com/yourusername/predictive-sales" },
       { type: "live", url: "https://example.com/demo" },
@@ -303,6 +277,9 @@ const projectsData = [
 `,
     image: "/Project/24.png?height=600&width=800",
     gallery: [
+      "/Project/56.png?height=600&width=800&text=Segmentation+Overview",
+      "/Project/55.png?height=600&width=800&text=Segmentation+Overview",
+      "/Project/57.png?height=600&width=800&text=Segmentation+Overview",
       "/Project/23.png?height=600&width=800&text=Segmentation+Overview",
       "/Project/24.png?height=600&width=800&text=RFM+Analysis",
       "/Project/25.png?height=600&width=800&text=Segment+Profiles",
@@ -326,7 +303,7 @@ const projectsData = [
       { name: "Python", icon: "📊" },
       { name: "PostgreSQL", icon: "🗃️" },
       { name: "Excel", icon: "📑" },
-      { name: "DAX", icon: "🔢" },
+      { name: "Query Optimization", icon: "⚡" },
     ],
     timeline: "4 months (Jan 2025 - April 2025)",
     team: "Solo project ",
@@ -337,18 +314,14 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Neural Network for Image Classification",
-    description: "Developed a convolutional neural network for classifying satellite imagery with 92% accuracy.",
+    title: "Data Jobs Dashbord",
+    description: "Created a Power BI dashboard to explore how data job salaries vary by role, region, and required skills.",
     fullDescription: `
-      This project involved building a sophisticated convolutional neural network (CNN) for classifying satellite imagery. 
-      The model was trained to identify different land use categories, including urban areas, forests, agricultural land, 
-      and water bodies with remarkable 92% accuracy.
-      
-      I implemented a custom CNN architecture using TensorFlow and Keras, incorporating techniques like data augmentation, 
-      transfer learning with pre-trained models, and hyperparameter tuning to optimize performance.
-      
-      The final solution includes a web interface where users can upload satellite images and receive instant classification 
-      results with confidence scores. The model was deployed using TensorFlow Serving for efficient inference.
+      "This project aimed to help people understand how different roles in the data field—like Data Analyst, Data Scientist, and Data Engineer—are paid across countries and what skills are most important. I started by collecting job data that included job titles, salaries, experience levels, locations, and listed skills. I used SQL to store and query the data, and Excel to clean and organize it for analysis.
+
+Once the data was prepared, I built a dynamic dashboard using Power BI. I created multiple charts to show salary comparisons, popular skills, job counts per country, and more. Users can interact with the dashboard through slicers and filters, making it easy to focus on specific roles or regions. The visuals were designed to be clear and readable for both technical and non-technical users.
+
+The dashboard is useful for students, job seekers, or even companies wanting to understand hiring trends in data fields. It gives a quick view of what roles are growing, what skills are frequently asked for, and where the highest salaries are offered. This makes it easier for users to make smart career or business decisions based on real data.
     `,
     image: "/Project/32.png?height=600&width=800",
     gallery: [
@@ -361,27 +334,30 @@ const projectsData = [
     videoPoster: "/Project/32.png?height=600&width=800&text=AI+Model+Training+Preview",
     videoDuration: "4:28",
     videoThumbnail: "/Project/23.png?height=600&width=800&text=Video+Thumbnail",
-    tags: ["Python", "TensorFlow", "AI", "ML", "CNN", "Computer Vision"],
-    categories: ["ML", "AI", "Python"],
-    slug: "neural-network-image-classification",
+    tags: ["Excel", "Data Analysis", "VBA", "SQL","Dashboard Design"],
+    categories: ["Excel","Python", "SQL"],
+    slug: "data0",
     achievements: [
-      "Achieved 92% classification accuracy on test dataset",
-      "Processed and classified over 10,000 satellite images",
-      "Reduced classification time from hours to seconds",
-      "Implemented web interface for real-time classification",
+        "Used SQL to organize job-related data",
+        "Cleaned and shaped raw data using Excel",
+        "Built charts in Power BI to show salary and job trends",
+        "Added interactive slicers for easy filtering",
+        "Helped users explore valuable roles, locations, and skills",
+   ,
     ],
     technologies: [
-      { name: "Python", icon: "🐍" },
-      { name: "TensorFlow", icon: "⚙️" },
-      { name: "Keras", icon: "🧠" },
-      { name: "OpenCV", icon: "👁️" },
-      { name: "Flask", icon: "🌐" },
+      { name: "DAX", icon: "🔢" },
+       { name: "Excel", icon: "📑" },
+      { name: "VBA", icon: "⌨️" },
+      { name: "Power Query", icon: "🔄" },
+      { name: "Pivot Tables", icon: "📊" },
+      { name: "Excel Charts", icon: "📈" },
     ],
-    timeline: "4 months (Jun 2023 - Sep 2023)",
-    team: "Collaborated with a GIS specialist",
+    timeline: "1 month (Jun 2025 )",
+    team: "Solo project",
     links: [
-      { type: "github", url: "https://github.com/yourusername/satellite-classification" },
-      { type: "live", url: "https://example.com/demo" },
+      { type: "github", url: "https://github.com/RemedanSE123/Power-BI-Project_1" },
+     
     ],
   },
 
@@ -389,18 +365,13 @@ const projectsData = [
     id: 4,
     title: "Highest Paying Job in Data?",
     description:
-      "Created a comprehensive Excel dashboard with advanced formulas and pivot tables to track sales performance.",
+      "Built an Power BI dashboard to identify the highest paying roles and skills in data-related careers",
     fullDescription: `
-      This project involved developing a sophisticated Excel dashboard to track and analyze sales performance for a medium-sized 
-      retail company. The solution leverages advanced Excel features including pivot tables, dynamic arrays, and custom VBA macros 
-      to provide actionable insights.
-      
-      The dashboard automatically processes raw sales data and presents key metrics such as revenue trends, product performance, 
-      regional comparisons, and sales rep productivity. Interactive filters allow users to drill down into specific time periods, 
-      product categories, or sales territories.
-      
-      I implemented custom VBA scripts to automate data refresh and report generation, significantly reducing the time required 
-      for monthly reporting. The solution also includes forecasting models based on historical trends and seasonality factors.
+     This project was created to answer a simple question: Which data job pays the most? Using a dataset that included salary, job title, experience level, and country, I analyzed the relationship between skills and income. I didn’t use any advanced tools like machine learning—everything was done using Excel, focusing on simplicity and usefulness.
+
+After cleaning the data, I used Excel functions and pivot tables to explore patterns. I grouped the data by role, region, and required skills to see which combinations had the highest salaries. Then I used Excel charts—like bar charts and pie charts—to visualize the results in a way that’s easy to understand. I also added slicers to allow users to filter by experience or country.
+
+The result was a clean, interactive dashboard that can help users discover which roles are in demand, what skills increase earning potential, and where the best-paying jobs are located. This is especially helpful for students and career changers deciding which skill to focus on or which job path to follow.
     `,
     image: "/Project/36.png?height=600&width=800",
     gallery: [
@@ -412,16 +383,18 @@ const projectsData = [
     videoUrl: "/Project/2.mp4",
     videoPoster: "/Project/36.png?height=600&width=800&text=AI+Model+Training+Preview",
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
-    tags: ["Excel", "Data Analysis", "VBA", "Dashboard Design", "Business Intelligence"],
-    categories: ["Excel"],
+    tags: ["Excel","Power BI", "Data Analysis", "VBA", "SQL","Dashboard Design"],
+    categories: ["Excel","Python", "SQL","Power BI"],
     slug: "data",
     achievements: [
-      "Reduced monthly reporting time from 2 days to 2 hours",
-      "Identified underperforming products leading to $120K in cost savings",
-      "Improved sales team productivity by 18% through targeted insights",
-      "Created automated email reporting system using VBA",
+     "Organized and analyzed job data fully in Excel",
+      "Used pivot tables to find top-paying roles and skills",
+      "Created easy-to-read charts to display salary comparisons",
+      "Added slicers for filtering data by country and experience",
+      "Built a helpful tool for job seekers exploring data careers",
     ],
     technologies: [
+      {name:"Power BI", icone: BarChart},
       { name: "Excel", icon: "📑" },
       { name: "VBA", icon: "⌨️" },
       { name: "Power Query", icon: "🔄" },
@@ -429,27 +402,20 @@ const projectsData = [
       { name: "Excel Charts", icon: "📈" },
     ],
     timeline: "1 month (Oct 2023)",
-    team: "Solo project with input from sales managers",
+    team: "Solo project, Data from Kaggle",
     links: [
-      { type: "github", url: "https://github.com/yourusername/excel-sales-dashboard" },
-      { type: "live", url: "https://example.com/demo" },
+      { type: "github", url: "https://github.com/RemedanSE123/Power-BI-Project_2" },
+    
     ],
   },
   {
     id: 5,
     title: "Agriculture Investment Support System",
     description:
-      "Optimized database queries and structure, reducing query execution time by 40% and improving application performance.",
+      "Built a system to help investors choose the best places in Ethiopia for Agriculture Investment based on land type, water, and legal information.",
     fullDescription: `
-      This project focused on optimizing a large-scale SQL database for an e-commerce platform that was experiencing performance issues 
-      as their data volume grew. I conducted a comprehensive analysis of database structure, query patterns, and performance bottlenecks.
-      
-      The optimization strategy included redesigning table schemas, implementing appropriate indexing strategies, normalizing data where 
-      needed, and rewriting inefficient queries. I also implemented partitioning for large tables to improve query performance on 
-      historical data.
-      
-      Additionally, I developed a monitoring system to track query performance over time and identify potential issues before they 
-      impact users. The solution included detailed documentation and training for the development team on database best practices.
+      This project helps investors, government agencies, and local stakeholders find where and how to invest in Ethiopia's agriculture sector. I focused on creating a system that displays detailed agricultural information for different crops like Teff, Sorghum, and Coffee across regions. I collected and organized the data in a structured SQL database, making it easier to connect each product with investment details, locations, and benefits.
+      The goal was to support smarter investment decisions and promote transparency. The project does not use advanced technologies like machine learning, but it offers a solid and user-friendly tool that connects agricultural data with regional planning. It gives users direct insight into potential returns, land availability, and the best-suited regions for different crops.
     `,
     image: "/Project/41.jpg?height=600&width=800",
     gallery: [
@@ -461,45 +427,45 @@ const projectsData = [
     videoUrl: "/Project/3.mp4",
      videoPoster: "/Project/41.jpg?height=600&width=800&text=AI+Model+Training+Preview",
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
-    tags: ["SQL", "Database Design", "Performance Tuning", "Query Optimization", "Database Administration"],
-    categories: ["SQL"],
+    tags: ["SQL", "Database Design","Query Optimization", "Database Administration"],
+    categories: ["SQL","Python"],
     slug: "agri",
     achievements: [
-      "Reduced average query execution time by 40%",
-      "Decreased database size by 35% through proper normalization",
-      "Improved application response time by 25%",
-      "Implemented automated performance monitoring system",
+      "Created a structured SQL database for agricultural products",
+      "Linked products to regions, zones, and woredas with clear relationships",
+      "Designed interactive map-based access to data",
+      "Built individual product pages with investment details",
+      "Added admin form for easy data updates",
+      "Supported decision-making for investors and planners in agriculture",
     ],
     technologies: [
-      { name: "SQL", icon: "🗃️" },
+     
       { name: "PostgreSQL", icon: "🐘" },
+       { name: "Python", icon: "🐍" },
       { name: "Database Indexing", icon: "🔍" },
       { name: "Query Optimization", icon: "⚡" },
       { name: "Performance Monitoring", icon: "📉" },
+       { name: "Data Modeling", icon: "🏗️" },
+       
     ],
     timeline: "3 months (Nov 2023 - Jan 2024)",
-    team: "Collaborated with 2 backend developers",
+    team: "(Internship)Collaborated with  a representative from the Ministry of Agriculture.",
     links: [
-      { type: "github", url: "https://github.com/yourusername/sql-optimization" },
-      { type: "live", url: "https://example.com/demo" },
+      { type: "github", url: "http://github.com/RemedanSE123/Agricultural-Investment-Support-System" },
+   
     ],
   },
   {
     id: 6,
     title: "Data Jobs Dashbord 2.0",
     description:
-      "Developed interactive Power BI dashboards for sales analytics, providing real-time insights for decision-making.",
+      "Created an interactive dashboard using Power BI, Excel, and SQL to analyze job counts, skills, and salaries in data-related roles.",
     fullDescription: `
-      This project involved creating a comprehensive Power BI solution for sales analytics at a multinational retail company. 
-      The dashboards provide real-time insights into sales performance across multiple dimensions including products, regions, 
-      time periods, and sales channels.
-      
-      I designed and implemented a star schema data model to efficiently handle large volumes of sales data. The solution includes 
-      custom DAX measures for complex calculations such as year-over-year growth, moving averages, and contribution margins.
-      
-      The interactive dashboards allow executives and sales managers to explore data through intuitive visualizations, drill down 
-      into specific areas of interest, and identify trends or anomalies. Automated data refresh ensures that decision-makers always 
-      have access to the latest information.
+     This project was focused on building an updated and interactive dashboard that shows detailed insights about jobs in the data industry. I used SQL to manage and query large datasets containing job postings, skill requirements, and salary data. Excel was used for initial data cleaning and preparation to ensure accuracy and consistency.
+
+     Power BI was the main tool to create the dashboard visuals. I designed cards to display key metrics like total job count, average skills per job, and median salaries. Bar charts show skill popularity and hourly salary by job title. Filters allow users to select specific job titles or countries to drill down into the data. The interface is clean and easy to use for quick decision-making.
+
+     This dashboard helps job seekers, recruiters, and analysts understand the job market better by highlighting which skills are most demanded, how many jobs are available, and the salary ranges across different roles and locations. No advanced machine learning techniques were used; the focus was on data organization, visualization, and interactivity with familiar tools.
     `,
     image: "/Project/48.png?height=600&width=800",
     gallery: [
@@ -511,45 +477,48 @@ const projectsData = [
     videoUrl: "/Project/4.mp4",
      videoPoster: "/Project/48.png?height=600&width=800&text=AI+Model+Training+Preview",
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
-    tags: ["Power BI", "DAX", "Data Modeling", "Business Intelligence", "Data Visualization"],
-    categories: ["Power BI"],
+    tags: ["Power BI", "DAX", "Data Modeling", "SQL", "Data Visualization"],
+    categories: ["Power BI", "SQL"],
     slug: "data2",
     achievements: [
-      "Consolidated data from 5 different source systems",
-      "Reduced executive reporting time by 75%",
-      "Identified $1.2M in revenue opportunities through trend analysis",
-      "Implemented automated daily refresh and distribution",
-    ],
+        "Organized job and salary data using SQL queries",
+        "Cleaned and prepared datasets using Excel",
+        "Built interactive, filterable dashboards with Power BI",
+        "Displayed key metrics and skill popularity visually",
+        "Made data easy to explore for non-technical users",
+       ],
     technologies: [
-      { name: "Power BI", icon: "📊" },
+      {name:"Power BI", icone: BarChart},
       { name: "DAX", icon: "🔢" },
       { name: "Power Query", icon: "🔄" },
       { name: "SQL", icon: "🗃️" },
       { name: "Data Modeling", icon: "🏗️" },
     ],
-    timeline: "2 months (Feb 2024 - Mar 2024)",
-    team: "Led a team of 3 BI developers",
+    timeline: "1 month (Feb 2024 - Mar 2024)",
+    team: "Solo project",
     links: [
-      { type: "github", url: "https://github.com/yourusername/power-bi-sales" },
-      { type: "live", url: "https://example.com/demo" },
+      { type: "github", url: "https://github.com/RemedanSE123/Power-BI-Project_4" },
+   
     ],
   },
   {
     id: 7,
     title: "Digital Address Registration System",
-    description: "Built an NLP-based sentiment analysis tool to analyze customer feedback and social media mentions.",
+    description: "Designed a national address registration system for Ethiopia that allows users to contribute verified location data, from region down to house number, with interactive mapping and approval workflow.",
     fullDescription: `
-      This project involved developing a sophisticated sentiment analysis tool that processes customer feedback from multiple 
-      channels including surveys, support tickets, and social media. The solution uses natural language processing (NLP) techniques 
-      to classify text as positive, negative, or neutral, and extract key themes and topics.
-      
-      I implemented a hybrid approach combining lexicon-based methods with machine learning models to achieve high accuracy across 
-      different types of text. The system can handle industry-specific terminology and context, providing more relevant insights 
-      than generic sentiment tools.
-      
-      The final solution includes an interactive dashboard that displays sentiment trends over time, highlights emerging issues, 
-      and allows users to drill down into specific feedback categories. Automated alerts notify stakeholders when significant 
-      sentiment shifts occur.
+      This system solves the problem of missing or inconsistent address data in Ethiopia. It lets users register their address hierarchically—from region → zone → woreda → kebele → mender → house number. Users submit their address via a form with GPS location and supporting documents or images.
+
+The system uses an admin-based workflow for review and approval. Once validated, the address becomes part of the national database. The platform also includes:
+
+GIS-based interactive maps for all administrative levels
+
+Role-based dashboards for users, verifiers, and admins
+
+Real-time validation and address lookup system
+
+Dynamic filtering to navigate through Ethiopia’s full administrative structure
+
+Built using SQL and modern front-end tools, this system can integrate with national ID systems, utility services, and e-commerce platforms.
     `,
     image: "/Project/50.png?height=600&width=800",
     gallery: [
@@ -561,27 +530,28 @@ const projectsData = [
     videoUrl: "/Project/5.mp4",
     videoThumbnail: "/Project/.png?height=600&width=800&text=Video+Thumbnail",
      videoPoster: "/Project/50.png?height=600&width=800&text=AI+Model+Training+Preview",
-    tags: ["Python", "NLP", "ML", "AI", "NLTK", "spaCy", "Sentiment Analysis"],
-    categories: ["ML", "AI", "Python"],
+    tags: ["Python", "SQL","Excel"],
+    categories: ["Python", "SQL","Excel"],
     slug: "address",
     achievements: [
-      "Achieved 87% accuracy in sentiment classification",
-      "Processed over 100,000 customer feedback items monthly",
-      "Identified 3 major product issues before they affected sales",
-      "Reduced time to identify emerging issues from weeks to hours",
-    ],
+      "Digitized address data for thousands of users across all regions",
+      "Enabled community-based address submission and evidence upload",
+      "Built a multi-level map system down to the household level",
+      "Streamlined government validation workflow with real-time updates",
+     ],
     technologies: [
       { name: "Python", icon: "🐍" },
-      { name: "NLTK", icon: "📝" },
-      { name: "spaCy", icon: "🔍" },
-      { name: "scikit-learn", icon: "🤖" },
-      { name: "Flask", icon: "🌐" },
+      { name: "SQL", icon: "🗃️" },
+      { name: "Excel", icon: "📑" },
+       { name: "Database Indexing", icon: "🔍" },
+      { name: "Query Optimization", icon: "⚡" },
+      { name: "Performance Monitoring", icon: "📉" },
     ],
     timeline: "3 months (Apr 2024 - Jun 2024)",
-    team: "Collaborated with marketing and customer support teams",
+    team: "Collaborated with Kukunet Digital team",
     links: [
-      { type: "github", url: "https://github.com/yourusername/sentiment-analysis" },
-      { type: "live", url: "https://example.com/demo" },
+      { type: "github", url: "https://github.com/RemedanSE123/Digital-Address-Registration-System" },
+      { type: "live", url: "kaddress,kukunetdigital.com" },
     ],
   },
   // {
