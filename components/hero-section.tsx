@@ -23,18 +23,16 @@ import {
 
 // Code snippet for the animated terminal
 const codeSnippet = `
-function Developer(name) {
-  this.name = name;
-  this.skills = ['Web Dev', 'Data Analysis', 'ML', 'GIS'];
-  this.experience = '2+ years';
-  
-  this.code = () => {
-    return 'Crafting smart solutions with code, data, and innovation';
-  }
+developer = {
+    'name': 'Remedan Hyeredin',
+    'role': 'Data Scientist & Analyst',
+    'experience': '2+ years'
 }
 
-const remedan = new Developer('Remedan Hyeredin');
-console.log(remedan.code());
+print(f"{developer['name']} — {developer['role']} with {developer['experience']} of experience.")
+
+
+
 `.trim();
 
 export function HeroSection() {
@@ -162,13 +160,15 @@ export function HeroSection() {
             <div className="pl-4">
               <p className="text-lg md:text-xl leading-relaxed">
                 <span className="font-semibold text-amber-500">Data scientist</span> with over{" "}
-                <span className="font-bold bg-amber-500/10 px-2 py-0.5 rounded-md">2+ years</span> of experience turning
-                complex data into <span className="italic">actionable insights</span>.
+                <span className="font-bold bg-amber-500/10 px-2 py-0.5 rounded-md">2+ years</span> of experience driving business impact through
+                 <span className="italic">  Advanced Analytics, and Compelling Storytelling</span>.
+                
+
               </p>
               <p className="text-lg md:text-xl leading-relaxed mt-3">
                 I specialize in{" "}
                 <span className="underline decoration-amber-500 decoration-2 underline-offset-2">
-                  Data Analysis and Visualization
+                  Data Science and Data Analysis
                 </span>{" "}
                 with a growing focus on <span className="font-semibold">Machine Learning</span> and{" "}
                 <span className="font-semibold">Artificial Intelligence</span>.
@@ -208,14 +208,14 @@ export function HeroSection() {
               variant="outline"
               className="text-lg border-amber-500 text-amber-500 hover:bg-amber-500/10 transition-all duration-300"
             >
-              <Link href="https://github.com">
+              <Link href="https://github.com/RemedanSE123">
                 <Github className="mr-2 h-5 w-5" /> GitHub
               </Link>
             </Button>
 
             <div className="hidden md:flex items-center gap-3 ml-4">
               <motion.a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/remedan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -224,18 +224,9 @@ export function HeroSection() {
               >
                 <Linkedin className="h-5 w-5" />
               </motion.a>
+             
               <motion.a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-background border border-border hover:border-amber-500/50 hover:text-amber-500 transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </motion.a>
-              <motion.a
-                href="mailto:contact@example.com"
+                href="mailto:remedanhyeredin@gmail.com"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-background border border-border hover:border-amber-500/50 hover:text-amber-500 transition-colors"
@@ -252,14 +243,15 @@ export function HeroSection() {
             className="flex flex-wrap gap-2 pt-4"
           >
             <Badge variant="outline" className="bg-background/50 backdrop-blur-sm">
-              <Code className="h-3.5 w-3.5 mr-1" /> Web Development
-            </Badge>
-            <Badge variant="outline" className="bg-background/50 backdrop-blur-sm">
-              <Database className="h-3.5 w-3.5 mr-1" /> Database Management
+              <Code className="h-3.5 w-3.5 mr-1" /> Data Science
             </Badge>
             <Badge variant="outline" className="bg-background/50 backdrop-blur-sm">
               <LineChart className="h-3.5 w-3.5 mr-1" /> Data Analysis
             </Badge>
+            <Badge variant="outline" className="bg-background/50 backdrop-blur-sm">
+              <Database className="h-3.5 w-3.5 mr-1" /> Database 
+            </Badge>
+            
             <Badge variant="outline" className="bg-background/50 backdrop-blur-sm">
               <Braces className="h-3.5 w-3.5 mr-1" /> ML
             </Badge>
@@ -308,7 +300,7 @@ export function HeroSection() {
                   <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
                 </div>
                 <div className="ml-2 text-xs text-gray-400 flex items-center">
-                  <Terminal className="h-3 w-3 mr-1" /> developer.js
+                  <Terminal className="h-3 w-3 mr-1" /> profile.py
                 </div>
               </div>
               <div className="p-4 font-mono text-xs text-green-400 overflow-hidden h-[calc(100%-1.5rem)]">
@@ -325,7 +317,7 @@ export function HeroSection() {
             className="grid grid-cols-2 gap-4 mt-32 md:mt-16"
           >
             <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-lg">
-              <div className="text-3xl font-bold text-amber-500">50+</div>
+              <div className="text-3xl font-bold text-amber-500">20+</div>
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </div>
             <div className="bg-background/80 backdrop-blur-sm p-4 rounded-lg border border-border shadow-lg">

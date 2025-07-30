@@ -11,29 +11,29 @@ import { ArrowRight, ExternalLink, Star } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Predictive Sales Analysis",
+    title: "Ethiopia Interactive Map Explorer",
     description:
-      "Built a machine learning model to predict future sales based on historical data, improving forecast accuracy by 35%.",
-    image: "/a6.png?height=400&width=600",
-    tags: ["Python", "ML", "Pandas", "Scikit-learn"],
-    link: "/projects/predictive-sales",
+       "An advanced web-based mapping tool that enables users to explore, customize, and export geographic data across all administrative levels of Ethiopia — from regions to zones and woredas.",
+    image: "/Project/et.png?height=400&width=600",
+    tags: ["Python", "Pandas", "PostgreSQL", "Excel", "React", "Node.js"],
+    link: "/projects/ethiopia",
   },
   {
     id: 2,
-    title: "Customer Segmentation Dashboard",
+    title: "Digital Address Registration System",
     description:
-      "Created an interactive Power BI dashboard for customer segmentation, enabling targeted marketing strategies.",
-    image: "/b1.png?height=400&width=600",
-    tags: ["Power BI", "SQL", "Excel"],
-    link: "/projects/customer-segmentation",
+      "Designed a national address registration system for Ethiopia that allows users to contribute verified location data, from region down to house number, with interactive mapping and approval workflow.",
+    image: "/Project/54.png?height=400&width=600",
+    tags: ["SQL", "Excel","Python","PHP"],
+    link: "/projects/address",
   },
   {
     id: 3,
-    title: "Neural Network for Image Classification",
-    description: "Developed a convolutional neural network for classifying satellite imagery with 92% accuracy.",
-    image: "/dars.png?height=400&width=600",
-    tags: ["Python", "TensorFlow", "AI", "ML"],
-    link: "/projects/neural-network",
+    title: "Data Jobs Dashboard 2.0",
+    description: "Created an interactive dashboard using Power BI, Excel, and SQL to analyze job counts, skills, and salaries in data-related roles.",
+    image: "/Project/48.png?height=400&width=600",
+    tags: ["SQL", "Excel","Python"],
+    link: "/projects/data2",
   },
 ]
 
@@ -230,16 +230,7 @@ function ProjectItem({ project, index }: { project: any; index: number }) {
           </div>
         </div>
 
-        <div className="mb-6 p-3 border-l-2 border-amber-500 bg-amber-500/5">
-          <h4 className="text-sm font-medium">Key Achievement</h4>
-          <p className="text-sm text-muted-foreground">
-            {index === 0
-              ? "Improved forecast accuracy by 35%"
-              : index === 1
-                ? "Increased marketing ROI by 42%"
-                : "Achieved 92% classification accuracy"}
-          </p>
-        </div>
+       
 
         <div className="flex flex-wrap gap-4 mt-auto">
           <Button asChild className="bg-amber-500 hover:bg-amber-600 text-black relative overflow-hidden group">
@@ -274,24 +265,7 @@ function ProjectItem({ project, index }: { project: any; index: number }) {
           <span className="text-sm font-medium">100%</span>
         </div>
 
-        {index === 1 && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ delay: 0.8 }}
-            className="mt-6 p-4 border border-amber-500/20 rounded-lg bg-amber-500/5 relative"
-          >
-            <div className="absolute -top-3 -left-3 text-4xl text-amber-500/30">"</div>
-            <p className="text-sm italic text-muted-foreground">
-              This project revolutionized our approach to customer segmentation, resulting in a 28% increase in
-              conversion rates.
-            </p>
-            <div className="mt-2 flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full bg-amber-500/20"></div>
-              <span className="text-xs font-medium">Sarah Johnson, Marketing Director</span>
-            </div>
-          </motion.div>
-        )}
+     
       </motion.div>
     </motion.div>
   )

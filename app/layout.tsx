@@ -22,10 +22,8 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata = {
-  title: "Data Science Portfolio | From Spreadsheets to Space Tech",
-  description:
-    "Professional portfolio showcasing my journey from Data Analyst to Data Scientist, Machine Learning Engineer, and AI Specialist.",
-    generator: 'v0.dev'
+  title: "Remedan Hyeredin",
+  
 }
 
 export default function RootLayout({

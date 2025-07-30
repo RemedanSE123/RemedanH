@@ -25,7 +25,7 @@ const skillCategories = [
     icon: <Braces className="h-5 w-5" />,
     skills: [
       { name: "Python", level: 85 },
-      { name: "R", level: 75 },
+      { name: "R", level: 35 },
       { name: "JavaScript", level: 65 },
       { name: "Pandas", level: 90 },
       { name: "NumPy", level: 85 },
@@ -36,11 +36,11 @@ const skillCategories = [
     name: "Machine Learning",
     icon: <Brain className="h-5 w-5" />,
     skills: [
-      { name: "Scikit-learn", level: 80 },
-      { name: "TensorFlow", level: 70 },
-      { name: "PyTorch", level: 65 },
-      { name: "Regression", level: 85 },
-      { name: "Classification", level: 80 },
+      { name: "Scikit-learn", level: 40 },
+      { name: "TensorFlow", level: 40 },
+      { name: "PyTorch", level: 50 },
+      { name: "Regression", level: 45 },
+      { name: "Classification", level: 40 },
     ],
   },
   {
@@ -48,33 +48,33 @@ const skillCategories = [
     name: "AI",
     icon: <Cpu className="h-5 w-5" />,
     skills: [
-      { name: "Neural Networks", level: 75 },
-      { name: "NLP", level: 70 },
-      { name: "Computer Vision", level: 65 },
-      { name: "Reinforcement Learning", level: 60 },
-      { name: "LLMs", level: 70 },
+      { name: "Neural Networks", level: 25 },
+      { name: "NLP", level: 20 },
+      { name: "Computer Vision", level: 25 },
+      { name: "Reinforcement Learning", level: 20 },
+      { name: "LLMs", level: 20 },
     ],
   },
 ]
 const techIcons = [
-  { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", color: "#F7DF1E" },
+
   { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", color: "#61DAFB" },
   { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", color: "#339933" },
   { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", color: "#3776AB" },
-  { name: "PHP", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", color: "#777BB4" },
+
   { name: "SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", color: "#4479A1" },
-  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", color: "#47A248" },
+  
   { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", color: "#336791" },
-  { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", color: "#7952B3" },
+ 
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", color: "#F05032" },
-  { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", color: "#181717" },
-  { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", color: "#F24E1E" },
+  { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", color: "#336791" },
+ 
   { name: "Tableau", icon: "https://img.icons8.com/color/100/tableau-software.png", color: "#E97627" },
   { name: "Excel", icon: "https://img.icons8.com/fluency/100/microsoft-excel-2019.png", color: "#217346" },
   { name: "Numpy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg", color: "#013243" },
   { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg", color: "#150458" },
   { name: "Power BI", icon: "https://img.icons8.com/color/100/power-bi.png", color: "#F2C811" },
-  { name: "QGIS", icon: "https://img.icons8.com/color/100/qgis.png", color: "#589632" },
+
 ];
 
 export default function Skills() {

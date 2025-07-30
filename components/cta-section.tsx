@@ -93,7 +93,7 @@ export function CTASection() {
               variant="outline"
               className="text-lg border-amber-500 text-amber-500 hover:bg-amber-500/10"
             >
-              <Link href="https://github.com">
+              <Link href="https://github.com/RemedanSE123">
                 <Github className="mr-2 h-5 w-5" /> View GitHub
               </Link>
             </Button>

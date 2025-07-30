@@ -434,15 +434,17 @@ const projects = [
     slug: "data0",
   },
   {
-    id: 4,
-    title: "Highest Paying Job in Data?",
-    description:
-      "Built an Power BI dashboard to identify the highest paying roles and skills in data-related careers.",
-    image: "/Project/36.png?height=600&width=800",
-    tags: ["Excel", "Data Analysis", "Power BI", "SQL"],
-    categories: ["Excel","Power BI", "SQL"],
-    slug: "data",
+    id: 7,
+    title: "Digital Address Registration System",
+    description: "Designed a national address registration system for Ethiopia that allows users to contribute verified location data, from region down to house number, with interactive mapping and approval workflow.",
+    image: "/Project/54.png?height=600&width=800",
+    tags: ["Python", "SQL"],
+    categories: [ "Python", "SQL"],
+    slug: "address",
   },
+
+
+  
   {
     id: 5,
     title: "Agriculture Investment Support System",
@@ -455,7 +457,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Data Jobs Dashbord 2.0",
+    title: "Data Jobs Dashboard 2.0",
     description:
       "Created an interactive dashboard using Power BI, Excel, and SQL to analyze job counts, skills, and salaries in data-related roles.",
     image: "/Project/48.png?height=600&width=800",
@@ -463,14 +465,15 @@ const projects = [
     categories: ["Power BI", "SQL","Excel"],
     slug: "data2",
   },
-  {
-    id: 7,
-    title: "Digital Address Registration System",
-    description: "Designed a national address registration system for Ethiopia that allows users to contribute verified location data, from region down to house number, with interactive mapping and approval workflow.",
-    image: "/Project/54.png?height=600&width=800",
-    tags: ["Python", "SQL"],
-    categories: [ "Python", "SQL"],
-    slug: "address",
+{
+    id: 4,
+    title: "Highest Paying Job in Data?",
+    description:
+      "Built an Power BI dashboard to identify the highest paying roles and skills in data-related careers.",
+    image: "/Project/36.png?height=600&width=800",
+    tags: ["Excel", "Data Analysis", "Power BI", "SQL"],
+    categories: ["Excel","Power BI", "SQL"],
+    slug: "data",
   },
   // {
   //   id: 8,

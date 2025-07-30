@@ -86,7 +86,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Remedan Hyeredin Data Science Portfolio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Remedan Hyeredin Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>
